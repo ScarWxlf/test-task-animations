@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карусель з GSAP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/samsung-sharp-sans" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="text-container">
+                <div class="left-text">
+                    <img class="samsung-logo slide-left-text" src="./logo.png" alt="logo">
+                    <h1>
+                        <div class="line" >See why the Bespoke Jet™</div>
+                        <div class="line" >is “so good” it made this</div>
+                        <div class="line" >
+                            <img src="./kitchn-logo.png" alt="kitchn-logo"> 
+                            <span class="kitchn">kitchn</span> journalist cry
+                        </div>
+                    </h1>
+                    <div>
+                        <div class="desctiption-container desctiprion">
+                            <p class="desc">“The first time I used the Samsung Bespoke Jet™, <br/> I cried. I’m not being sensational; I really did. <br/> Of course, this vacuum worked great. <br/> But that’s not all.” 
+                                <a class="read-more" href="./empty.html">Read more...</a>
+                            </p>
+
+                            <p class="desc">“If you’re an over-cleaner, like myself, you’ll nerd out on all of the functions. If you avoid this chore at all costs, you’ll appreciate how simple Samsung makes it.”
+                                <a class="read-more" href="./empty.html">Read more...</a>
+                            </p>
+
+                            <p class="desc">“Both the floor and pet hair attachments are cleverly designed to eliminate the dreaded hair wrap. (In other words, you’ll never have to tackle hair tangles with a pair of scissors again.)”
+                                <a class="read-more" href="./empty.html">Read more...</a>
+                            </p>
+
+                            <p class="desc">“When I learned the Samsung Bespoke Vac cleaned itself with amazing technology, that’s when I cried. No more scraping spider legs and hair out of the crevices with my hands. Its suction power is so strong, the canister is left perfectly clean after every use. It’s like a vacuum for your vacuum.”
+                                <a class="read-more" href="./empty.html">Read more...</a>
+                            </p>
+
+                            <p class="desc">“Because it’s so nice-looking, it can live right in the kitchen. No more hauling a vacuum up and down the basement stairs on the daily”
+                                <a class="read-more" href="./empty.html">Read more...</a>
+                            </p>
+
+                            <div style="display: flex; gap: 2px; font-weight: bold; align-items: center;">
+                                <button class="arrow-button left-arrow"><img src="./left-arrow.png" alt="left-arrow"></button>
+                                <p id="slide-counter" style="margin: 0px;">1/5</p>
+                                <button class="arrow-button right-arrow"><img src="./right-arrow.png" alt="right-arrow"></button>
+                            </div>
+                        </div>
+                        <p class="slide-left-text be-spoke">BE<span>SPOKE</span> Jet™</p>
+                        <h2 class="slide-left-text">Save $400 Now</h2>
+                        <button class="button"><a style="text-decoration: none; color: black;" href="./empty.html">SAVE $400 NOW</a></button>
+                        <h3 class="desctiprion">*See site for details, pricing from 3/2 to 3/29 while supplies last</h3>
+                    </div>
+                </div>
+                <div>
+                    <h1 style="z-index: 50; position: relative;">Bespoke Jet™</h1>
+                </div>
+            </div>
+            <img class="carousel-slide" style="width: 100%;" src="/main-images/2022-bespoke-jet_n01_kv_ver2_pc_SCOM.jpg" alt="Slide 1">
+            <img class="carousel-slide" style="position: absolute;" src="./main-images/VS20A95923_06_Theme_Bespoke-Jet_SCOM.jpg" alt="Slide 2">
+            <img class="carousel-slide" style="position: absolute;" src="./main-images/image001.jpg" alt="Slide 3">
+            <img class="carousel-slide" style="position: absolute;" src="./main-images//4.jpg" alt="Slide 4">
+            <img class="carousel-slide" style="position: absolute;" src="./main-images/VS20A95923_02_Space_Bespoke-Jet_SCOM (1).jpg" alt="">
+        </div>
+    </div>  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
